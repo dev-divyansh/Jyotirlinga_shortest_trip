@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyotirlinga TSP Finder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jyotirlinga TSP Finder</h1>
+        <form id="tsp-form">
+            <label for="nearest-jyotirlinga">Select Nearest Jyotirlinga:</label>
+            <select id="nearest-jyotirlinga">
+            </select>
+            <button type="submit">Find Shortest Path</button>
+        </form>
+        <div id="result" class="result">
+        </div>
+    </div>
+    <footer>
+        <p>Project By: <a href="https://www.linkedin.com/in/pratap-divyansh/" target="_blank">Divyansh Pratap Singh</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
